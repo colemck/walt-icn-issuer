@@ -70,6 +70,9 @@
             <p class="lead text-muted fw-normal mb-4">
               {{$t('SELECT_CREDENTIALS_MSG')}}
             </p>
+     	    <p class="lead text-muted fw-normal mb-4">
+              Click the <b>edit icon</b> below to edit the information on your credential.
+            </p>
               <form>
                 <div class="d-flex flex-column align-items-md-center align-items-sm-start text-start">
                   <div class="form-check col-md-9 col-sm-12 mb-3" v-for="issuable in issuables.credentials" :key="issuable.type">
